@@ -21,7 +21,7 @@ def numerical_gradient(f, x):
         grad[idx] = (fxh1 -fxh2) / (2 * h)
         x[idx] = tmp_val
     return grad        
-
+"""
 print(numerical_gradient(function_2, np.array([3.0, 4.0])))
 print(numerical_gradient(function_2, np.array([0.0, 2.0])))
 print(numerical_gradient(function_2, np.array([3.0, 0.0])))
@@ -29,7 +29,7 @@ print(numerical_gradient(function_2, np.array([-3.0, 0.0])))
 #print(numerical_gradient(function_2, np.array([[-0.20838863, -0.34024908,  -1.29517191], [-0.45216316, 0.39368814, 0.52020035]])))
 k = np.array([[-0.20838863, -0.34024908,  -1.29517191], [-0.45216316, 0.39368814, 0.52020035]])
 print(k.size)
-
+"""
 
 def numerical_gradient_multi(f, x):
     h = 1e-4 # 0.0001
